@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,100&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    color:gold;
+    background-color:black;
+    background: url(ii.jpg);
+}
+.home {
+    color:gold;
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+header {
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    position: sticky;
+    top : 0 ;
+    height: 100px;
+    /* background-color: black; */
+}
+ .logo {
+    font-style: bold;
+    color:gold;
+}
+nav ul {
+    display: flex;
+    gap: 50px;
+}
+
+nav li {
+    display: flex;
+    font-size: 20px;
+    font-weight: 500;
+    list-style: none;
+    letter-spacing: 1px;
+
+}
+
+nav ul .navigation {
+    display: cover;
+    list-style: none;
+    text-decoration: none;
+}
+
+nav ul li a {
+    padding: 10px;
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+
+nav li :hover {
+    border-bottom: 2px solid white;
+}
+.tab{
+    color: gold ;
+    border-color: whitesmoke;
+    background-color: black;
+}
+.com{
+    background-color: black;
+    margin-top: 300px;
+    color :gold;
+    padding :2%;
+}
+.cor{
+    color: gold;
+    margin-top: 30px;
+    margin-right: 600px;
+}
+p{
+    font-weight: 600;
+}
+.con{
+    
+    color:white;
+    margin-top: 40px;
+    margin-right: 600px;
+}
+.he{
+    color :gold;
+}
+.bb{
+    color:gold;
+}

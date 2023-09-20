@@ -1,0 +1,25 @@
+.card{
+    float:left;
+    margin-top: 50px;
+    margin-right:20px;
+
+   }
+   .card img{
+    width:240px;
+    height:200px;
+   }
+   main{
+    width:70%
+   }
+   body{
+    background-color: black;
+   }
+      button.btn{
+    padding: 30px;
+    margin-left:96%;
+    position: relative;
+    top:250px;
+    right : 200px;
+    border-radius: 10px;
+   } 
+    
